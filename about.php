@@ -6,7 +6,7 @@
 
 date_default_timezone_set('Asia/Kolkata');
 //$date1 = date('m/d/Y h:i:s a');
-$results = json_encode(array('status' => 'ok', 'time' => date('m/d/Y H:i:s')), true);
+$results = json_encode(array('time' => date('d-m-Y H:i:s')), true);
 //json_encode($date1);
 echo $results;
 ?>
